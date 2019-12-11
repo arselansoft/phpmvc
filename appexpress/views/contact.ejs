@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Arselantronik::Contact Us</title>
+    <link rel="stylesheet" href="/assets/style.css" type="text/css">
+  </head>
+  <body>
+    <% include partials/nav.ejs %>
+    <h1>Arselantronik - Contact Us</h1>
+    <p>Contact Arselantronik via WA: +62 8777 5055 629</p>
+    <p><%= qs.user %></p>
+    <form id="contact-form" action="/contact" method="POST">
+      <label for="who">Who do you want to contact?</label>
+      <input type="text" name="who" value="">
+      <label for="email">Your Email:</label>
+      <input type="text" name="email" value="">
+      <input type="submit" name="submit" value="Submit">
+    </form>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "appexpress",
+  "version": "1.0.0",
+  "description": "Arselantronik Express Web node",
+  "main": "app.js",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "arselantronik",
+    "arselansoft",
+    "node",
+    "express"
+  ],
+  "author": "Arselansoft",
+  "license": "ISC"
+}

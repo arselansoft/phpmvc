@@ -1,0 +1,40 @@
+body {
+  background-color: skyblue;
+  font-family: cursive, verdana, arial;
+}
+
+h1 {
+  color: green;
+}
+
+h2 {
+  color: white;
+}
+
+form{
+  margin-left: 20px;
+  padding-left: 10px;
+  color: #eee;
+/*  display: run-in; */
+}
+
+label {
+  margin-top: 10px;
+  display: block;
+}
+
+input {
+  margin-top: 10px;
+  display: block;
+}
+
+input[type:"text"] {
+  /*margin-top: 10px;*/
+  width: 75%;
+}
+
+input[type:"submit"] {
+  /*margin-top: 10px;*/
+  padding-top: 10px;
+  width: 100px;
+}
